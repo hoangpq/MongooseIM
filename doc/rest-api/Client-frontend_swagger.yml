@@ -127,7 +127,7 @@ paths:
           description: |
             When the authenticated user is not allowed to read the room's details.
     put:
-      description: Creates a room with the given ID.
+      description: Creates a room with the given ID, if the room already exists, changes its configuration.
       tags:
         - "Rooms"
       parameters:
